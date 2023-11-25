@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Fundamentals Quiz</h1>
+        <button id="startBtn">Start Quiz</button>
+        <div id="quizSection" hidden>
+            <p id="question"></p>
+            <button class="option" onclick="checkAnswer(0)"></button>
+            <button class="option" onclick="checkAnswer(1)"></button>
+            <button class="option" onclick="checkAnswer(2)"></button>
+            <button class="option" onclick="checkAnswer(3)"></button>
+        </div>
+        <div id="endSection" hidden>
+            <p>Quiz Over!</p>
+            <label for="initials">Enter your initials: </label>
+            <input type="text" id="initials" maxlength="3">
+            <button onclick="saveScore()">Save Score</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

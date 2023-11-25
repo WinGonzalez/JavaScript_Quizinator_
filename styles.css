@@ -1,0 +1,61 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: grey;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 20);
+  background: lightsalmon;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+p#question {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#timer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  max-width: 60px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 20);
+  background: lightsalmon;
+  text-underline-position: below red;
+  
+}
+
+.option {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.5em;
+}
+
+.option:hover {
+  background-color: aqua;
+}
+
+.option:active {
+  background-color: purple;
+}
