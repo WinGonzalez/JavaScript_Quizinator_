@@ -9,7 +9,8 @@ JavaScript Quizinator Application Screenshots
 ![Displays Highscore Section with initials list from 1-5. ](image-1.png)
 
 Features: This JavaScript quiz features a timer, multiple choice prompts, and Highscore page with user intials inputs. 
-Getting Started: Prerequisites Web browsers including Chrome, Firefox, Safari Usage: Clone the repository bash Copy code git clone INSERT DEPLOY LINK HERE
+Getting Started: Prerequisites Web browsers including Chrome, Firefox, Safari Usage: Clone the repository bash Copy code git clone https://github.com/WinGonzalez/JavaScript_Quizinator_ 
+Deployed Application 
 Open index.html in your browser. Select your answer based on the JavaScript question. At the end of the quiz you will be promoted to enter your intitials in the highscore section.Contributing: Contributions are always welcome! Please read my contributing guidelines to get started.
 
 License This project is licensed under the MIT License - see the LICENSE.md file for details.
